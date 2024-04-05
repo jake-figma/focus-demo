@@ -1,5 +1,4 @@
 import figma from "@figma/code-connect";
-import "./icons.css";
 type IconProps = { size?: "sm" | "md" | "lg" };
 
 export const IconArrow = ({ size = "md" }: IconProps = {}) => (

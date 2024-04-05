@@ -127,7 +127,9 @@ export const Button = ({
 
   if (props.icon) {
     classNames.push("button-icon");
-    contents.push(props.icon);
+    contents.push(<span>{props.children}</span>, props.icon);
+  } else {
+    contents.push(props.children);
   }
   if (fullWidth) {
     classNames.push("button-full-width");
