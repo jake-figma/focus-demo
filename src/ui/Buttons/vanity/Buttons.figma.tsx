@@ -40,6 +40,7 @@ figma.connect(
     ),
   }
 );
+
 figma.connect(
   SecondaryButton,
   "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=27%3A969&mode=dev",
@@ -59,6 +60,7 @@ figma.connect(
     ),
   }
 );
+
 figma.connect(
   InverseButton,
   "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=27%3A969&mode=dev",
