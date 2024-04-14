@@ -11,4 +11,7 @@ export default defineConfig({
       ui: path.resolve(__dirname, "./src/ui"),
     },
   },
+  server: {
+    port: 8000,
+  },
 });

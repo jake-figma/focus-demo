@@ -8,12 +8,12 @@
     "app:build": "tsc && vite build",
     "app:lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "app:preview": "vite preview",
-    "figma:create": "export $(cat secrets.env | xargs)&& figma connect create",
-    "figma:unpublish": "export $(cat secrets.env | xargs)&& figma connect unpublish",
-    "figma:publish": "export $(cat secrets.env | xargs)&& figma connect publish"
+    "figma:connect:create": "export $(cat secrets.env | xargs)&& figma connect create",
+    "figma:connect:unpublish": "export $(cat secrets.env | xargs)&& figma connect unpublish",
+    "figma:connect:publish": "export $(cat secrets.env | xargs)&& figma connect publish"
   },
   "dependencies": {
-    "@figma/code-connect": "https://figma-devtools-cli.s3.us-west-1.amazonaws.com/figma-cli-beta.tgz",
+    "@figma/code-connect": "https://figma-devtools-cli.s3.us-west-1.amazonaws.com/figma-code-connect-0.0.14.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

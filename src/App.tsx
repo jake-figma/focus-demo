@@ -1,13 +1,14 @@
-import { IconBasket } from "icons";
-import { Button } from "ui";
-
 function App() {
   return (
-    <>
-      <Button variant="secondary" icon={<IconBasket />} onClick={() => {}}>
-        Hello world
-      </Button>
-    </>
+    <main
+      style={{
+        display: "grid",
+        placeItems: "center",
+        minHeight: "100vh",
+      }}
+    >
+      Hello world
+    </main>
   );
 }
 

@@ -11,12 +11,14 @@ import figma from "@figma/code-connect";
 
 figma.connect(
   Button,
-  "https://staging.figma.com/file/KaA4kBxUSEut1TfsH0Itmj/FOCUS%3A-Core-Library?type=design&node-id=5-302&mode=design&t=gY1d5jwExSNHRMnZ-11",
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=5%3A302&mode=dev",
   {
     props: {
-      icon: figma.instance("icon"),
       label: figma.string("label"),
-      showicon: figma.boolean("showIcon"),
+      icon: figma.boolean("showIcon", {
+        true: figma.instance("icon"),
+        false: undefined,
+      }),
       variant: figma.enum("variant", {
         secondary: "secondary",
         destructive: "destructive",
@@ -39,6 +41,7 @@ figma.connect(
         icon={props.icon}
         variant={props.variant}
         size={props.size}
+        disabled={props.disabled}
         fullWidth={props.fullwidth}
         type="button"
         onClick={() => {}}
