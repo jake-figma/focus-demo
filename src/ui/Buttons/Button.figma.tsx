@@ -63,7 +63,7 @@ const sharedProps = {
 
 figma.connect(
   Button,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-919&mode=design&t=cjkkPYNKvjjj3Amo-11",
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-919",
   {
     props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (
@@ -80,9 +80,10 @@ figma.connect(
     ),
   }
 );
+
 figma.connect(
   Button,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-1136&mode=design&t=cjkkPYNKvjjj3Amo-11",
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-1136",
   {
     props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (
@@ -99,9 +100,10 @@ figma.connect(
     ),
   }
 );
+
 figma.connect(
   Button,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-1281&mode=design&t=cjkkPYNKvjjj3Amo-11",
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=124-1281",
   {
     props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (

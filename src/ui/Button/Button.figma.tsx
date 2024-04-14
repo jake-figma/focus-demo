@@ -43,7 +43,6 @@ figma.connect(
         size={props.size}
         disabled={props.disabled}
         fullWidth={props.fullwidth}
-        type="button"
         onClick={() => {}}
       >
         {props.label}

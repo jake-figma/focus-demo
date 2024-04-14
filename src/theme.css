@@ -123,7 +123,7 @@
 }
 
 /* Color Dark Mode */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --color-bg-brand: var(--color-blue-200);
     --color-bg-brand-active: var(--color-blue-100);
@@ -159,4 +159,4 @@
     --color-text-link: var(--color-blue-200);
     --color-text-subdued: var(--color-mono-400);
   }
-}
+} */
