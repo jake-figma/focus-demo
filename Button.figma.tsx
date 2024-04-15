@@ -11,7 +11,7 @@ import figma from "@figma/code-connect"
 
 figma.connect(
   Button,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?type=design&node-id=5-302&mode=dev",
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=5%3A302&mode=dev",
   {
     props: {
       icon: figma.instance("icon"),

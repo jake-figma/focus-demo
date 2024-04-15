@@ -20,7 +20,6 @@ figma.connect(
         ariaLabel="Describe the action here."
         variant={variant}
         icon={icon}
-        type="button"
         onClick={() => {}}
       />
     ),
