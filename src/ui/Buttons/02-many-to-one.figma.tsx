@@ -1,9 +1,7 @@
-import { PrimaryButton } from "./PrimaryButton";
-import { SecondaryButton } from "./SecondaryButton";
-import { InverseButton } from "./InverseButton";
+import { Button } from "./Button";
 import figma from "@figma/code-connect";
 
-const vanityProps = {
+const sharedProps = {
   label: figma.string("Label"),
   iconEnd: figma.boolean("Icon End", {
     true: figma.instance("↳ Icon End Instance"),
@@ -22,13 +20,13 @@ const vanityProps = {
 };
 
 figma.connect(
-  PrimaryButton,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=27%3A969&mode=dev",
+  Button,
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=124-919",
   {
-    variant: { Variant: "Primary" },
-    props: vanityProps,
+    props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (
-      <PrimaryButton
+      <Button
+        variant="primary"
         onClick={() => {}}
         iconEnd={iconEnd}
         iconStart={iconStart}
@@ -36,19 +34,19 @@ figma.connect(
         size={size}
       >
         {label}
-      </PrimaryButton>
+      </Button>
     ),
   }
 );
 
 figma.connect(
-  SecondaryButton,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=27%3A969&mode=dev",
+  Button,
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=124-1136",
   {
-    variant: { Variant: "Secondary" },
-    props: vanityProps,
+    props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (
-      <SecondaryButton
+      <Button
+        variant="secondary"
         onClick={() => {}}
         iconEnd={iconEnd}
         iconStart={iconStart}
@@ -56,19 +54,19 @@ figma.connect(
         size={size}
       >
         {label}
-      </SecondaryButton>
+      </Button>
     ),
   }
 );
 
 figma.connect(
-  InverseButton,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=27%3A969&mode=dev",
+  Button,
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf?node-id=124-1281",
   {
-    variant: { Variant: "Inverse" },
-    props: vanityProps,
+    props: sharedProps,
     example: ({ label, iconEnd, iconStart, disabled, size }) => (
-      <InverseButton
+      <Button
+        variant="inverse"
         onClick={() => {}}
         iconEnd={iconEnd}
         iconStart={iconStart}
@@ -76,7 +74,7 @@ figma.connect(
         size={size}
       >
         {label}
-      </InverseButton>
+      </Button>
     ),
   }
 );

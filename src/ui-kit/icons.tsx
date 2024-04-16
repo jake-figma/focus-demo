@@ -100,31 +100,25 @@ export const IconProfile = ({ size = "md" }: IconProps = {}) => (
 
 figma.connect(
   IconArrow,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A153&mode=dev",
-  { example: () => <IconArrow /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A153&mode=dev"
 );
 figma.connect(
   IconBasket,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A155&mode=dev",
-  { example: () => <IconBasket /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A155&mode=dev"
 );
 figma.connect(
   IconClose,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A151&mode=dev",
-  { example: () => <IconClose /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A151&mode=dev"
 );
 figma.connect(
   IconDelete,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A147&mode=dev",
-  { example: () => <IconDelete /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS%3A-Core-Library?node-id=4%3A147&mode=dev"
 );
 figma.connect(
   IconMenu,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=4%3A145&mode=dev",
-  { example: () => <IconMenu /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=4%3A145&mode=dev"
 );
 figma.connect(
   IconProfile,
-  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=4%3A158&mode=dev",
-  { example: () => <IconProfile /> }
+  "https://www.figma.com/file/azv53zX7Jry7jQUQqMGzqf/FOCUS_-Core-Library?node-id=4%3A158&mode=dev"
 );
