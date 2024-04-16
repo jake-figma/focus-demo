@@ -1,7 +1,9 @@
-import { PrimaryButton } from "./vanity/PrimaryButton";
-import { SecondaryButton } from "./vanity/SecondaryButton";
-import { InverseButton } from "./vanity/InverseButton";
+import { PrimaryButton } from "./vanity-components/PrimaryButton";
+import { SecondaryButton } from "./vanity-components/SecondaryButton";
+import { InverseButton } from "./vanity-components/InverseButton";
 import figma from "@figma/code-connect";
+
+/* One component in Figma to many components in code */
 
 const vanityProps = {
   label: figma.string("Label"),

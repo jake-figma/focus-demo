@@ -1,6 +1,8 @@
 import { Button } from "./Button";
 import figma from "@figma/code-connect";
 
+/* Many components in Figma to one component in code */
+
 const sharedProps = {
   label: figma.string("Label"),
   iconEnd: figma.boolean("Icon End", {
