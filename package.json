@@ -13,7 +13,7 @@
     "figma:connect:publish": "export $(cat secrets.env | xargs)&& figma connect publish"
   },
   "dependencies": {
-    "@figma/code-connect": "https://figma-devtools-cli.s3.us-west-1.amazonaws.com/figma-code-connect-0.0.14.tgz",
+    "@figma/code-connect": "^0.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

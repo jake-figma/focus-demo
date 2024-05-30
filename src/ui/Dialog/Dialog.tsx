@@ -1,7 +1,7 @@
-import { IconClose } from "icons";
 import { ReactNode } from "react";
 import { IconButton } from "ui/Buttons/IconButton";
 import "./dialog.css";
+import { IconClose } from "ui/icons";
 
 type DialogProps = {
   /**
